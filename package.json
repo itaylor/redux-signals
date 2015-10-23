@@ -1,0 +1,29 @@
+{
+  "name": "redux-signals",
+  "version": "0.0.1",
+  "description": "A redux middleware that allows the creation of 'signals', providing a way to aggregate actions",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -r qunit-mocha-ui --ui qunit-mocha-ui --compilers js:babel/register"
+  },
+  "keywords": [
+    "redux",
+    "middleware",
+    "action",
+    "signal"
+  ],
+  "author": "ian.b.taylor@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.3.0",
+    "mocha": "^2.3.3",
+    "qunit-mocha-ui": "0.0.5",
+    "redux": "^3.0.3",
+    "redux-thunk": "^1.0.0"
+  }
+}
