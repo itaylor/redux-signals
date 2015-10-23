@@ -1,8 +1,9 @@
 {
   "name": "redux-signals",
   "version": "0.0.1",
-  "description": "A redux middleware that allows the creation of 'signals', providing a way to aggregate actions",
+  "description": "A redux middleware that allows the creation of 'signal' actions that don't have reducers of their own, but instead dispatch other actions.",
   "main": "dist/index.js",
+  "repository":"github:itaylor/redux-signals",
   "directories": {
     "test": "test"
   },
